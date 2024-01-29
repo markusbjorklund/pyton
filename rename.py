@@ -20,7 +20,8 @@ def rename_files(folder_path, start_date, years_forward, skip_weekdays=None):
                 start_date += timedelta(days=1)
 
             # Construct the new file name using the specified format
-            comic_prefix = 'ZTSyd_'
+            # Use a unique prefix
+            comic_prefix = 'XXXX_'
             new_name = start_date.strftime(comic_prefix + '%Y%m%d')
 
             # Get the file extension
