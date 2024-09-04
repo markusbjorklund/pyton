@@ -1,3 +1,9 @@
+################################################################################################
+#                                                                                              #
+#   AI has been used for some parts of this script and afterwards reconstructed by a hooman.   #
+#                                                                                              #
+################################################################################################
+
 import os
 from datetime import datetime, timedelta
 
